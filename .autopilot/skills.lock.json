@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "host": "claude",
+  "version": "0.1.0",
+  "files": {
+    "explain-autopilot/SKILL.md": "036a47d786f709a91f2ffafb0032b0848c6b42128a85347d4d95795f7aa00c2e",
+    "file-issue/SKILL.md": "15a57bf0a1ff47f030a0c666611ac87751abef56339db9d34f08ea6e4d08b6f6",
+    "triage-for-autopilot/SKILL.md": "35ea0af408ff57b2fa22c24e0672b6fbf0c19f7a759e27a275bf84ee3044206a"
+  }
+}

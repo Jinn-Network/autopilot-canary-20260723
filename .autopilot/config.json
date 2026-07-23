@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "slug": "Jinn-Network/autopilot-canary-20260723",
+    "defaultBranch": "main",
+    "restDatabaseId": 1310390252,
+    "remote": {
+      "name": "origin",
+      "url": "https://github.com/Jinn-Network/autopilot-canary-20260723.git"
+    },
+    "instructionFiles": []
+  },
+  "project": {
+    "owner": "Jinn-Network",
+    "number": 3,
+    "id": "PVT_kwDODh3-Ac4BeR0o",
+    "fields": {
+      "status": {
+        "id": "PVTSSF_lADODh3-Ac4BeR0ozhYtPuI",
+        "options": {
+          "todo": "f75ad846",
+          "inProgress": "47fc9ee4",
+          "human": "e7837b1d",
+          "inReview": "2e4375ff",
+          "done": "98236657"
+        }
+      },
+      "priority": {
+        "id": "PVTSSF_lADODh3-Ac4BeR0ozhYtQts",
+        "options": {
+          "p0": "28052ad8",
+          "p1": "5501e66a",
+          "p2": "95446b65",
+          "p3": "26717115",
+          "p4": "f95ae561"
+        }
+      },
+      "effort": {
+        "id": "PVTSSF_lADODh3-Ac4BeR0ozhYtQuk",
+        "options": {
+          "low": "d87638f1",
+          "medium": "f2f86d42",
+          "high": "d9d54144",
+          "xhigh": "b7de964f",
+          "max": "637c0749"
+        }
+      },
+      "blockedOn": {
+        "id": "PVTSSF_lADODh3-Ac4BeR0ozhYtQuo",
+        "options": {
+          "nothing": "052ea682",
+          "human": "0ac60928",
+          "anotherIssue": "0fdfe0d2"
+        }
+      },
+      "sprint": {
+        "id": "PVTIF_lADODh3-Ac4BeR0ozhYtQvg"
+      },
+      "type": {
+        "options": {
+          "feat": "IT_kwDODh3-Ac4BvpyL",
+          "fix": "IT_kwDODh3-Ac4BvpyK",
+          "refactor": "IT_kwDODh3-Ac4CAgNe",
+          "spike": "IT_kwDODh3-Ac4CAgNf",
+          "chore": "IT_kwDODh3-Ac4BvpyJ",
+          "docs": "IT_kwDODh3-Ac4CAgNg",
+          "test": "IT_kwDODh3-Ac4CAgNh",
+          "incident": "IT_kwDODh3-Ac4CAgNi",
+          "design": "IT_kwDODh3-Ac4CAgNm"
+        }
+      }
+    }
+  },
+  "worker": {
+    "runtime": "hermes",
+    "model": "gpt-5.6-sol",
+    "provider": "openai-codex",
+    "repositorySkillDirectories": []
+  },
+  "scheduler": {
+    "pollSeconds": 600,
+    "fullReconcileSeconds": 3600,
+    "implementationConcurrency": 1,
+    "reviewConcurrency": 1,
+    "openPrBackpressure": 30
+  },
+  "triage": {
+    "allowedAuthors": [
+      "ritsuKai2000"
+    ]
+  },
+  "safety": {
+    "staleAfterSeconds": 7200,
+    "diskFloorGb": 10,
+    "cleanup": true,
+    "children": true,
+    "carryover": true
+  },
+  "mergePolicy": "manual",
+  "maintainerSkills": {
+    "host": "claude",
+    "version": "0.1.0"
+  }
+}
